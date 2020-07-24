@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    /*background-color: mediumaquamarine;*/
+}
+
+/*Estilos del header*/
+
+header{
+    border: 1px solid red;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+ .perfil {
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    display: flex;
+    margin-left: 0;
+    margin-right: 100px;
+    padding: 0;
+}
+ .perfil img{
+    border: 1px solid green;
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 50%;
+
+}
+
+header .date{
+    padding: 1px;
+    width: 300px;
+    height: 300px;
+}
+.date-name{
+    border: 1px solid black;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+.date_last-name{
+    border: 1px solid black;
+    margin-top: 5px;
+    display: block;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.date-job{
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+
