@@ -13,7 +13,7 @@ header{
     justify-content: space-between;
 }
  .perfil {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     width: 100px;
     height: 100px;
     padding: 25px;
@@ -37,26 +37,27 @@ header .date{
     width: 300px;
     height: 300px;
 }
-.date-name{
+.date h1{
     border: 1px solid black;
-    font-size: 35px;
+    font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 5px;
-    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
-.date_last-name{
+.date h2{
+    margin-top: 40px;
+    margin-bottom:5px;
     border: 1px solid black;
-    margin-top: 5px;
     display: block;
-    font-size: 45px;
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
-.date-job{
+.date h3{
     border: 1px solid black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-size: 20px;
 }
 
 main{
@@ -64,6 +65,9 @@ main{
     grid-template-columns: 40% 60%;
 }
 
-
+.description h2{
+    margin-top: 20px;
+    text-decoration: underline;
+}
 
 
