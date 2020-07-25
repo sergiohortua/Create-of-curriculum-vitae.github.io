@@ -61,10 +61,51 @@ header .date{
 
 /*-----Fin Header-----*/
 
+/*Estilos para main*/
 main{
     display: grid;
     grid-template-columns: 40% 60%;
 }
+/*Estilos para la seccion de contacto redes sociales*/
+.contacto-continer{
+    border: 1px solid violet;
+    width: 400px;
+    height: 250px;
+}
+.contacto-continer ul{
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+    height: 300px;
+}
+/*, .phone, .location, .linkedin, .twitter*/
+.mail, .phone, .location, .linkedin, .twitter{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;  
+    margin-top: 10px; 
+}
+.mail img, .phone img, .location img, .linkedin img, .twitter img{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    display: flex;
+    cursor: pointer;
+   
+}
+.mail a, .phone a, .location a, .linkedin a, .twitter a{
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    
+}
+
+
+
+
+
 
 .description h2{
     margin-top: 20px;
