@@ -1,5 +1,7 @@
 body{
+    border: 5px solid black;
     margin: 0;
+    height:1800px ;
     /*background-color: mediumaquamarine;*/
 }
 
@@ -69,5 +71,27 @@ main{
     margin-top: 20px;
     text-decoration: underline;
 }
+
+/*Division seccion de experiencia*/
+.expert-one, .expert-two, .expert-three{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+/*Division de seccion de educación*/
+
+
+.education{
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+}
+
+.edu-one, .edu-two{
+    display: flex;
+    align-content: space-around;
+}
+
+
 
 
