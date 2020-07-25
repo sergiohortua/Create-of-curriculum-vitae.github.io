@@ -1,8 +1,8 @@
 body{
+    font-family: 'Ubuntu', sans-serif;
     border: 5px solid black;
     margin: 0;
     height:1800px ;
-    /*background-color: mediumaquamarine;*/
 }
 
 /*Estilos del header*/
@@ -13,54 +13,53 @@ header{
     height: 400px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
  .perfil {
-    /*border: 1px solid blue;*/
-    width: 100px;
-    height: 100px;
-    padding: 25px;
+   /* border: 1px solid blue;*/
+    width: 400px;
+    height: 350px;
     display: flex;
-    margin-left: 0;
-    margin-right: 100px;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
+  
+   
 }
  .perfil img{
-    border: 1px solid green;
-    width: 250px;
-    height: 250px;
-    margin-top: 25px;
-    margin-left: 20px;
+   /* border: 1px solid green;*/
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
 
 }
 
-header .date{
-    padding: 1px;
-    width: 300px;
+header .date{    
+    width: 550px;
     height: 300px;
 }
 .date h1{
-    border: 1px solid black;
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*border: 1px solid black;*/
+    font-size: 70px;
+    padding-left: 30px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 .date h2{
+    /*border: 1px solid black;*/
+    font-size: 40px;
+    padding-left: 30px;
     margin-top: 40px;
     margin-bottom:5px;
-    border: 1px solid black;
-    display: block;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 .date h3{
-    border: 1px solid black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    /*border: 1px solid black;*/
+    font-size: 30px;
+    padding-left: 30px;
 }
+
+/*-----Fin Header-----*/
 
 main{
     display: grid;
