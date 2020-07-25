@@ -1,2 +1,4 @@
 # Create-of-curriculum-vitae
-Crear mì curriculum con herramientas como html y css
+![alt text](http://url/to/platzi_love.png)
+Crear mì curriculum con herramientas como html y css 
+
