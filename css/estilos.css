@@ -102,23 +102,48 @@ main{
     
 }
 
-
-
-
-
-
+/*QUIEN SOY*/
+.description{
+    border: 1px solid rgb(164, 197, 46);
+    width: 400px;
+    height: 200px;
+}
 .description h2{
-    margin-top: 20px;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 0px;
+    width: auto;
+    height: 70px;
+    font-size: 30px;
     text-decoration: underline;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.description_summary{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0;
+    margin-bottom: 40px;
+    width: auto;
+    height: 130px;
+    font-size: 17px;
+    padding-left: 20px;
 }
 
-/*Division seccion de experiencia*/
+
+
+
+
+
+
+/*
+
+/*Division seccion de experiencia
 .expert-one, .expert-two, .expert-three{
     display: grid;
     grid-template-columns: 20% 80%;
 }
 
-/*Division de seccion de educación*/
+/*Division de seccion de educación
 
 
 .education{
@@ -131,7 +156,7 @@ main{
     display: flex;
     align-content: space-around;
 }
-
+*/
 
 
 
