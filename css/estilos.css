@@ -245,10 +245,210 @@ main{
 */
 .expert-one, .expert-two, .expert-three{
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 60%;
+}
+.tittle{
+    width: 390px;
+    height: 70px;
+    margin: 0px;
+    font-size: 30px;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+/*Tamaño del grid dividido en 2, 30% y 60% en los tres contenedores*/
+.container-expert .expert-one{
+    width: 600px;
+    height: auto;
+    margin-bottom: 30px;
 }
 
-Division de seccion de educación
+.container-expert .expert-two {
+    width: 600px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.container-expert .expert-three {
+    width: 600px;
+    height: auto;
+    margin-bottom: 30px;
+}
+/*tamaño de lo que hay dentro del contenedor y su ubicación*/
+.container-expert .expert-one .date{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    color: #C6C6C6;
+    font-size: 20px;
+    
+}
+/*se le quito la margen a los lados y agrego individual*/
+.expert-one .date p{
+    margin: 0;
+    margin-top:5px;
+}
+/*arreglo de cada uno de los titulos*/
+.container-expert .expert-one .business{
+    width:100%;
+    height: auto;
+    margin-left: 10px;
+}
+.container-expert .expert-one .business h2{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
+.container-expert .expert-one .business h3{
+    width:100%;
+    height: 30px;
+    margin:0;
+    display:flex;
+    align-items: center;
+    color: #C6C6C6;
+    font-size: 20px;
+}
+
+.container-expert .expert-one .business h4{
+    width:100%;
+    height: 30px;
+    margin:0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.container-expert .expert-one .business p{
+   margin: 0;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+/*Segunda referencia*/
+
+
+.container-expert .expert-two .date{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    color: #C6C6C6;
+    font-size: 20px;
+    
+}
+.expert-two .date p{
+    margin: 0;
+    margin-top:5px;
+}
+
+.container-expert .expert-two .business{
+    width:100%;
+    height: auto;
+    margin-left: 10px;
+}
+.container-expert .expert-two .business h2{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
+.container-expert .expert-two .business h3{
+    width:100%;
+    height: 50px;
+    margin:0;
+    display:flex;
+    align-items: center;
+    color: #C6C6C6;
+    font-size: 20px;
+}
+
+.container-expert .expert-two .business h4{
+    width:100%;
+    height: 30px;
+    margin:0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.container-expert .expert-two .business p{
+   margin: 0;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+/*tercera referencia*/
+
+
+.container-expert .expert-three .date{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    color: #C6C6C6;
+    font-size: 20px;
+    
+}
+.expert-three .date p{
+    margin: 0;
+    margin-top:5px;
+}
+
+.container-expert .expert-three .business{
+    width:100%;
+    height: auto;
+    margin-left: 10px;
+}
+.container-expert .expert-three .business h2{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
+.container-expert .expert-three .business h3{
+    width:100%;
+    height: 50px;
+    margin:0;
+    display:flex;
+    align-items: center;
+    color: #C6C6C6;
+    font-size: 20px;
+}
+
+.container-expert .expert-three .business h4{
+    width:100%;
+    height: 30px;
+    margin:0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.container-expert .expert-three .business p{
+   margin: 0;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+/*Educación*/
+
+
+
+
+/*Division de seccion de educación*/
 
 
 .education{
