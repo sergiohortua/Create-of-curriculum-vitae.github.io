@@ -68,15 +68,15 @@ main{
 }
 /*Estilos para la seccion de contacto redes sociales*/
 .contacto-continer{
-    /*border: 1px solid black;*/
     width: 400px;
     height: 250px;
 }
-.contacto-continer ul, .software ul{
+.contacto-continer ul{
     margin-top: 40px;
     padding: 0;
     list-style: none;
     height: 300px;
+    margin-left: 30px;
 }
 /*tamaño del contenedor*/
 .mail, .phone, .location, .linkedin, .twitter{
@@ -105,7 +105,7 @@ main{
 
 /*QUIEN SOY*/
 .description{
-   
+    margin-left: 30px;
     width: 400px;
     height: 400px;
 }
@@ -134,16 +134,16 @@ main{
 /*PROGRAMAS*/
 /*Titulo*/
 .software{
-    width: 400px;
+    width: 300px;
     height: 320px;
-    margin-right: 60px;
-    
+    /*margin-right: 60px;*/
+    margin-left: 30px;
 }
 
 .software h2{
     font-size: 30px;
     margin: 0;
-    width: 380px;
+    width: 300px;
     height: 70px;
     padding-left: 20px;
     display: flex;
@@ -151,8 +151,15 @@ main{
     margin-bottom: 0;
     text-decoration: underline;
 }
+.software ul{
+    
+    padding: 0;
+    list-style: none;
+    height: 250px;
+    width: 250px;
+}
 .software ul li .soft1, .soft2, .soft3, .soft4, .soft5, .soft6{
-    width: 400px;
+    width: 310px;
     height: 30px;
     display: flex;
     justify-content: space-between;
@@ -161,7 +168,7 @@ main{
 }
 .software ul h3{
     margin: 0;
-
+    font-size: 20px;
 }
 
 
@@ -174,16 +181,16 @@ main{
 }
 .soft1 div,.soft2 div,.soft3 div,.soft4 div,.soft5 div,.soft6 div{
     margin: 0;
-    margin-right: 70px;
+    margin-right: 0px;
+    width: 155px;
 }
 
 /*Estilos Referencias*/
 .ref{
-    
     width:400px;
     height: 200px;
     margin:0;
-    
+    margin-left: 30px;
 }
 
 .ref ul{
@@ -205,7 +212,6 @@ main{
     height: 30px;
     display: flex;
     align-items: center;
-    
     margin: 0;
     margin-left: 20px;  
     margin-top: 10px; 
@@ -218,11 +224,10 @@ main{
    display: flex;
 }
 .ref-lang1 h3, .ref-lang2 h3{
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
+    margin-left: 15px;
 }
-
-
 
 .ref h2{
     margin: 0;
@@ -232,7 +237,8 @@ main{
     height: 70px;
     display: flex;
     margin-bottom: 20px;
-    
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 /*Division seccion de experiencia
