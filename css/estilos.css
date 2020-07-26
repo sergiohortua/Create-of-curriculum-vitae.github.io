@@ -27,8 +27,8 @@ header{
 }
  .perfil img{
    
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 
 }
@@ -45,7 +45,7 @@ header .date{
     margin-top: 0px;
 }
 .date h2{
-    
+    text-decoration: none;
     font-size: 40px;
     padding-left: 30px;
     margin-top: 40px;
@@ -255,23 +255,25 @@ main{
     text-decoration: underline;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 /*Tamaño del grid dividido en 2, 30% y 60% en los tres contenedores*/
 .container-expert .expert-one{
     width: 600px;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .container-expert .expert-two {
     width: 600px;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .container-expert .expert-three {
     width: 600px;
     height: auto;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 /*tamaño de lo que hay dentro del contenedor y su ubicación*/
 .container-expert .expert-one .date{
@@ -301,6 +303,7 @@ main{
     margin: 0;
     display: flex;
     align-items: center;
+    text-decoration: none;
     
 }
 .container-expert .expert-one .business h3{
@@ -358,7 +361,8 @@ main{
     margin: 0;
     display: flex;
     align-items: center;
-    
+    text-decoration: none;
+
 }
 .container-expert .expert-two .business h3{
     width:100%;
@@ -415,7 +419,8 @@ main{
     margin: 0;
     display: flex;
     align-items: center;
-    
+    text-decoration: none;
+
 }
 .container-expert .expert-three .business h3{
     width:100%;
@@ -443,10 +448,18 @@ main{
     font-size: 20px;
 }
 
-/*Educación*/
+/*Educación
+tratamiento de dos elementos*/
 
-
-
+h2{
+    margin-top: 40px;
+    width: 500px;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
 
 /*Division de seccion de educación*/
 
@@ -454,14 +467,47 @@ main{
 .education{
     display: grid;
     grid-template-rows: 50% 50%;
-
+    width: 600px;
+    height: auto;
+   
 }
 
 .edu-one, .edu-two{
     display: flex;
     align-content: space-around;
+    
 }
 
-
-
+.education .schedule{
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+.education .schedule h3{
+    font-size: 18px;
+    
+}
+.education .profession{
+    width: 450px;
+    height: auto;
+    display: inline-block;
+    margin-left: 30px;
+}
+.education .profession h2{
+    width: 400px;
+    height: 30px;
+    margin:0;
+    margin-top: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.education .profession h3{
+    width: 400px;
+    height: 20px;
+    margin:0;
+    font-size: 18px;
+    text-decoration: none;
+}
 
