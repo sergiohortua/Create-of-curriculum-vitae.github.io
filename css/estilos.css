@@ -68,7 +68,7 @@ main{
 }
 /*Estilos para la seccion de contacto redes sociales*/
 .contacto-continer{
-    border: 1px solid violet;
+    border: 1px solid black;
     width: 400px;
     height: 250px;
 }
@@ -175,11 +175,50 @@ main{
 
 /*Estilos Referencias*/
 .ref{
-    border: 1px solid rgb(61, 6, 165);
+    border: 1px solid rgb(255, 217, 0);
     width:400px;
     height: 200px;
     margin:0;
+    
 }
+
+.ref ul{
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    height: 80px;
+    margin: 0;
+    display: block;
+    
+}
+.ref ul li{
+    display: flex;
+    justify-content: center;
+}
+
+.ref-lang1, .ref-lang2{
+    width: 400px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    
+    margin: 0;
+    margin-left: 20px;  
+    margin-top: 10px; 
+    border: 1px solid red;
+}
+
+.ref-lang1 img, .ref-lang2 img {
+   width: 15px; 
+   height: 15px;
+   display: flex;
+}
+.ref-lang1 h3, .ref-lang2 h3{
+    font-size: 15px;
+    display: flex;
+}
+
+
 
 .ref h2{
     margin: 0;
@@ -188,34 +227,12 @@ main{
     width: 380px;
     height: 70px;
     display: flex;
+    margin-bottom: 20px;
     border: 1px solid saddlebrown;
 }
 
-.ref ul{
-    margin: 0;
-    padding: 0;
-}
-.ref ul li {
-    border:1px solid red;
-    margin: 0;
-    margin-top: 10px;
-    padding-left: 20px;
-    width: 380px;
-    height: 60px;
-    list-style: none;
-    display: block;
-    
-}
-.ref-lang1 img h3{
-    justify-content: space-around;
-    
-}
-
-
-
-
-
-Division seccion de experiencia
+/*Division seccion de experiencia
+*/
 .expert-one, .expert-two, .expert-three{
     display: grid;
     grid-template-columns: 20% 80%;
