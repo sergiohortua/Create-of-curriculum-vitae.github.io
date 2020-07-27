@@ -514,23 +514,29 @@ h2{
 
 @media screen and (max-width:1024px){
     body{
-        border: 4px solid black;
+        
     }
 }
 @media screen and (max-width:768px){
     body{
-        border: 3px solid red;
+        
     }
 }
 @media screen and (max-width:480px){
     body{
-        border: 2px solid blue;
+        
     }
 }
 
 @media screen and (max-width:320px){
     body{
-        border: 1px solid green;
+        
+    }
+    .perfil{
+        margin-right: 100px;
+    }
+    header .date{
+        margin-left: 100px;
     }
     .contacto-continer{
         height: 270px;
