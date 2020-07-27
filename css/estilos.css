@@ -65,6 +65,7 @@ header .date{
 main{
     display: grid;
     grid-template-columns: 40% 60%;
+    flex-wrap: wrap;
 }
 /*Estilos para la seccion de contacto redes sociales*/
 .contacto-continer{
@@ -511,3 +512,115 @@ h2{
     text-decoration: none;
 }
 
+@media screen and (max-width:1024px){
+    body{
+        border: 4px solid black;
+    }
+}
+@media screen and (max-width:768px){
+    body{
+        border: 3px solid red;
+    }
+}
+@media screen and (max-width:480px){
+    body{
+        border: 2px solid blue;
+    }
+}
+
+@media screen and (max-width:320px){
+    body{
+        border: 1px solid green;
+    }
+    .contacto-continer{
+        height: 270px;
+    }
+    .mail, .phone, .location, .linkedin, .twitter {
+        display: block;
+        margin-top: 26px;
+    }
+    .mail img, .phone img, .location img, .linkedin img, .twitter img {
+        width: 25px;
+        height: 25px;
+    }
+    .mail a, .phone a, .location a, .linkedin a, .twitter a{
+        font-size: 30px;
+    }
+    .description{
+        margin-top: 20px;
+        height: 450px;
+    }
+    .description h2{
+        margin-bottom: 10px;
+    }
+    .description_summary{
+        font-size: 26px;
+    }
+    .software{
+        height:350px;
+    }
+    .software h2{
+        margin-bottom: 20px;
+    }
+    .software ul {
+        margin: 0;
+    }
+    .software ul li .soft1, .soft2, .soft3, .soft4, .soft5, .soft6 {
+        height: 40px;
+    }
+
+    main{
+        grid-template-columns: 150% 130%;
+    }
+    /*Estilos MQ de Experiencia 1*/
+    .container-expert .expert-one{
+        width:560px
+    }
+    .expert-one, .expert-two, .expert-three{
+        grid-template-columns: 30% 70%;
+    }
+    .container-expert .expert-one .date{
+        font-size: 24px;
+    }
+    .container-expert .expert-one .business h4{
+        font-size: 25px;
+    }
+    .container-expert .expert-one .business p{
+        font-size: 25px;
+    }
+
+     /*Estilos MQ de Experiencia 2*/
+
+    .container-expert .expert-two{
+        width:560px
+    }
+    .expert-one, .expert-two, .expert-three{
+        grid-template-columns: 30% 70%;
+    }
+    .container-expert .expert-two .date{
+        font-size: 24px;
+    }
+    .container-expert .expert-two .business h4{
+        font-size: 25px;
+    }
+    .container-expert .expert-two .business p{
+        font-size: 25px;
+    } 
+    /*Estilos MQ de Experiencia 3*/
+    .container-expert .expert-three{
+        width:560px
+    }
+    .expert-one, .expert-two, .expert-three{
+        grid-template-columns: 30% 70%;
+    }
+    .container-expert .expert-three .date{
+        font-size: 24px;
+    }
+    .container-expert .expert-three .business h4{
+        font-size: 25px;
+    }
+    .container-expert .expert-three .business p{
+        font-size: 25px;
+    }
+
+}
