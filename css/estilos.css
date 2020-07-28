@@ -512,12 +512,13 @@ h2{
     text-decoration: none;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (min-width:1024px){
     body{
-        
+        border:10px solid magenta;
     }
+
 }
-@media screen and (max-width:768px){
+@media screen and (min-width:768px){
     body{
         
     }
@@ -697,10 +698,6 @@ h2{
     .container-expert .expert-three .business p{
         font-size: 25px;
     }
-
-
-
-
 }
 
 @media screen and (max-width:320px){
@@ -805,3 +802,5 @@ h2{
     }
 
 }
+
+
