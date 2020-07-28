@@ -521,6 +521,78 @@ h2{
     body{
         
     }
+    header .date{
+        margin-left: 200px;
+    }
+
+    main{
+        grid-template-columns: 80% 70%;
+    }
+    .mail, .phone, .location, .linkedin, .twitter {
+        height: 45px;
+    }
+
+    .mail img, .phone img, .location img, .linkedin img, .twitter img {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .mail a, .phone a, .location a, .linkedin a, .twitter a{
+        font-size: 30px;
+    }
+    .description {
+        height:360px;
+    }
+    .description h2{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    h2{
+        margin-bottom: 30px;
+    }
+    .software{
+        height: 330px;
+    }
+    .software ul li .soft1, .soft2, .soft3, .soft4, .soft5, .soft6 {
+        width:390px;
+        height: 40px;
+    }
+    .software ul h3 {
+        font-size: 24px;
+    }
+
+    .soft1 div, .soft2 div, .soft3 div, .soft4 div, .soft5 div, .soft6 div{
+        width: auto;
+    }
+    .ref-lang1 h3, .ref-lang2 h3 {
+        font-size: 26px;
+    }
+
+    .container-expert .expert-one .business h4 {
+        font-size: 20px;
+    }
+    .container-expert .expert-two .business h4 {
+        font-size: 20px;
+    }
+    .container-expert .expert-three .business h4 {
+        font-size: 20px;
+    }
+
+    .container-expert .expert-one .business p {
+        font-size: 22px;
+    }
+
+    .container-expert .expert-two .business p {
+        font-size: 22px;
+
+    }
+    
+    .container-expert .expert-three .business p {
+        font-size: 22px;
+
+    }
+
+
 }
 @media screen and (max-width:480px){
     body{
