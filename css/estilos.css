@@ -160,7 +160,7 @@ main{
     width: 250px;
 }
 .software ul li .soft1, .soft2, .soft3, .soft4, .soft5, .soft6,.soft7, .soft8{
-    width: 390px;
+    width: 420px;
     height: 40px;
     display: flex;
     justify-content: space-between;
