@@ -136,8 +136,8 @@ main{
 /*Titulo*/
 .software{
     width: 300px;
-    height: 320px;
-    /*margin-right: 60px;*/
+    height: 400px;
+    margin-bottom: 90px;
     margin-left: 30px;
 }
 
@@ -159,9 +159,9 @@ main{
     height: 250px;
     width: 250px;
 }
-.software ul li .soft1, .soft2, .soft3, .soft4, .soft5, .soft6{
-    width: 310px;
-    height: 30px;
+.software ul li .soft1, .soft2, .soft3, .soft4, .soft5, .soft6,.soft7, .soft8{
+    width: 390px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
@@ -173,14 +173,14 @@ main{
 }
 
 
-.soft1 img, .soft2 img, .soft3 img, .soft4 img, .soft5 img, .soft6 img{
+.soft1 img, .soft2 img, .soft3 img, .soft4 img, .soft5 img, .soft6 img, .soft7 img, .soft8 img{
     width: 20px;
     height: 20px;
     padding-right: 8px;
     
    
 }
-.soft1 div,.soft2 div,.soft3 div,.soft4 div,.soft5 div,.soft6 div{
+.soft1 div,.soft2 div,.soft3 div,.soft4 div,.soft5 div,.soft6 div,.soft7 div, .soft8 div{
     margin: 0;
     margin-right: 0px;
     width: 155px;
